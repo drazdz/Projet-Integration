@@ -1,0 +1,88 @@
+/*
+ * Fonts
+ */
+
+@font-face {
+    font-family: "Code Bold";
+    src: url('CODEBold.otf');
+}
+@font-face {
+    font-family: "Code Light";
+    src: url('CODELight.otf');
+}
+@font-face {
+    font-family: "Sinkin Regular";
+    src: url('SinkinRegular.otf');
+}
+
+
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+}
+body {
+  color: #000;
+  text-align: center;
+}
+
+.container-fluid {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  padding-left: 0px;
+}
+
+h1{
+	font-size: 100px;
+}
+h2{
+	font-size: 100px;
+}
+h6{
+	font-size: 10px;
+}
+
+.site-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Sinkin Regular", Arial, Helvetica, sans-serif;
+
+}
+.404-container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  background-color: #424242;
+  color: #fff;
+  font-family: "Sinkin Regular", Arial, Helvetica, sans-serif;
+  padding-left: 15px;
+}
+
+
+

@@ -1,26 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Link to CSS stylesheet -->
-<link rel="stylesheet" type="text/css" href="css/contact.css">
 <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Link to CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
 
-<title>Contact</title>
+                            <title>Contact</title>
+</head>
 
- </head>
  <body>
- 	<div class="container-fluid">
-    <div class="row col-md-6 text-center">
- 		   <div class="header">
- 			<h2 class="text-center"><strong>Get in Touch</strong></h2>
- 			<p class="text-center"><img src="images/s1.jpg"></p>
- 			<h4 class="text-center">Nullam quis risus urna mollis ornare vel eu leo. Integer posuere eral a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</h4>
- 		</div>
 
- 		<div class="wrapper">
- 			<div class="row">
+<!-- Container -->
+ 	<div class="container-fluid">
+    <div class="row row-header">
+ 		 <div class="header">
+ 			<h2 class="text-center"><strong>Get in Touch</strong></h2>
+      </br>
+ 			<p class="text-center"><img src="images/s1.jpg"></p>
+      </br>
+ 			<h4 class="text-left">Nullam quis risus urna mollis ornare vel eu leo. Integer posuere eral a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</h4>
+      </br>
+ 		 </div>
+
+<!-- Wrapper Adress -->
+ 		<div class="wrapper wrp-adress">
+ 			<div class="row row-adress">
         <div class="col-md-4">
           <p><img src="images/icon-worldmap.png"></p>
           <h5 class="text-center">Moon Street Light Avenue</h5>
@@ -36,28 +43,100 @@
           <h5 class="text-center">manager@email.com</h5>
           <h5 class="text-center">assistant@email.com</h5>
         </div>
-      </div>
- 		</div>
-    <div class="wrapper">
-      <div class="row"><strong>Feel Free to Drop Us a Line</strong>
-      </div>
-      <h5>Nullam quis risus urna mollis ornare vel eu leo. Integer posuere eral a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</h5>
+      </div><!-- Fin balise row-adress-->
+ 		</div><!-- Fin balise wrapper wrp-adress-->
+    </br>
+
+<!-- Introduction form -->
+      <h3 class="text-left"><strong>Feel Free to Drop Us a Line</strong></h3>
+      <h5 class="text-left">Nullam quis risus urna mollis ornare vel eu leo. Integer posuere eral a ante venenatis dapibus posuere velit aliquet. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</h5>
+    </br>
+    </div><!-- Fin balise row-header -->
+
+<!-- Wrapper Formulaire -->
+    <div class="wrapper wrp-form">
+      <div class"row row-inputs">
+        <div class="col-md-6">
+            <form>
+<!-- Input Name -->        
+              <div class="form-group form-name">
+                <label class="control-label" for="name"></label>
+                <div class="input-group">
+                  <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                  <input type="text" class="form-control" id="inputName" aria-describedby="Your name" placeholder="Your name">
+                </div>
+              </div><!-- Fin balise form-name -->
+<!-- Input Phone -->
+              <div class="form-group form-phone">
+                <label class="control-label" for="phone"></label>
+                <div class="input-group">
+                  <span class="input-group-addon"><span class="glyphicon glyphicon-earphone"></span></span>
+                  <input type="text" class="form-control" id="inputPhone" aria-describedby="Phone" placeholder="Your Phone">
+                </div>
+              </div><!-- Fin balise form-phone -->
+          </div>
+
+        <div class="col-md-6">
+<!-- Input Email -->
+          <div class="form-group form-email">
+            <label class="control-label" for="email"></label>
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+              <input type="text" class="form-control" id="inputEmail" aria-describedby="Your email" placeholder="Your email">
+            </div>
+          </div><!-- Fin balise form-email -->
+<!-- Select Department -->
+          <div class="form-group form-dept">
+            <label class="control-label" for="department"></label>
+            <div class="input-group">
+              <span class="input-group-addon"><span class="glyphicon glyphicon-ok"></span></span>
+              <input type="text" class="form-control" id="inputDpt" aria-describedby="Select Department" placeholder="Select Department">
+              <div class="input-group-btn">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>
+                <ul class="dropdown-menu dropdown-menu-right">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div>
+            </div>
+          </div><!-- Fin balise form-dept -->
+        </div>
+ <!-- Textarea Message -->   
+    <div class="form-group">
+      <label for="comment"></label>
+      <textarea class="form-control" rows="5" cols="20" id="comment" placeholder="Type your message here"></textarea>
     </div>
-    <div class="form">
-      <form>
-  <div class="form-inline col-md-6">
-    <label for="exampleInputEmail1"></label>
-    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Your name">
+<!-- CheckBox Subject -->
+<div class="checkbox text-left">
+    <h4>Subject: </h4>
+    <label>
+      <input type="checkbox"> General
+    </label>
+    <label>
+      <input type="checkbox"> Hello
+    </label>
+    <label>
+      <input type="checkbox"> Say Hi
+    </label>
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  </div>
-  <button type="submit" class="btn btn-default">SEND</button>
+ <!-- Button Send -->
+    <div class="text-left btn-send">
+      <button type="button" class="btn btn-danger">Send</button>
+    </div>
+  </div><!-- Fin balise wrp-form -->
+
+
+
+</div>
+</div>
+</div>
 </form>
+     </div>
     </div>
-    </div>
-    </div>
+   </div>
+  </div><!-- Fin balise container-fluid -->
  </body>
  </html>

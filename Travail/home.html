@@ -15,9 +15,9 @@
 </head>
 
 <body>
-<div class="container-fluid ctn-main">
+<div class="container ctn-main">
 	<!-- Static navbar -->
-<nav class="navbar navbar-default navbar-static-top">
+<nav class="navbar navbar-default navbar-static-top" style="background-color: white;">
       <div class="container ctn-navbar">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -29,7 +29,7 @@
           <a class="navbar-brand brandmail" href="#"><span class="glyphicon glyphicon-envelope text-center"></span> hello@email.com</a>
           <a class="navbar-brand brandphone" href="#"><span class="glyphicon glyphicon-earphone"></span> +00(123) 456 78 90</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
+        <div id="navbar-social" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="socialicon"><a class="btn btn-social-icon btn-pinterest" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'btn-pinterest']);">
             <span class="fa fa-pinterest"></span></a></li>
@@ -48,8 +48,8 @@
     </nav>
 
 <!-- Navbar Menu -->
-<div class="container-fluid ctn-navmenu">
-<nav class="navbar-menu navbar-default">
+<div class="container ctn-navmenu">
+<nav class="navbar-menu navbar-default" style="background-color: white;">
   
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -79,11 +79,11 @@
 </nav>
 
 <!-- Carousel -->
-<div class="container ctn-carousel">
-<div data-ride="carousel" class="carousel slide" id="carousel">
+<div class="container col-xs-12 ctn-carousel">
+<div data-ride="carousel" class="carousel slide" id="myCarousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
-        <li class="active" data-slide-to="0" data-target="#carousel"></li>
+        <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
         <li data-slide-to="1" data-target="#carousel" class=""></li>
         <li data-slide-to="2" data-target="#carousel" class=""></li>
       </ol>
@@ -92,9 +92,8 @@
           <img alt="First slide" src="images/city.jpg" class="first-slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a role="button" href="#" class="btn btn-lg btn-primary">Sign up today</a></p>
+              <h1>Think <strong>unique.</strong> Be <strong>unique.</strong></h1>
+              <p>Make a difference using Kwoon</p>
             </div>
           </div>
         </div>
@@ -102,9 +101,8 @@
           <img alt="Second slide" src="images/city.jpg" class="second-slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a role="button" href="#" class="btn btn-lg btn-primary">Learn more</a></p>
+              <h1>Think <strong>unique.</strong> Be <strong>unique.</strong></h1>
+              <p>Make a difference using Kwoon</p>
             </div>
           </div>
         </div>
@@ -112,9 +110,8 @@
           <img alt="Third slide" src="images/city.jpg" class="third-slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a role="button" href="#" class="btn btn-lg btn-primary">Browse gallery</a></p>
+              <h1>Think <strong>unique.</strong> Be <strong>unique.</strong></h1>
+              <p>Make a difference using Kwoon</p>
             </div>
           </div>
         </div>
@@ -129,13 +126,202 @@
       </a>
     </div><!-- Fin carousel -->
     </div><!-- Fin container ctn-carousel -->
-</div><!-- Fin container-fluid ctn-main -->
+</div><!-- Fin container nav-menu -->
+
+
+<!-- Container Services -->
+<div class="container">
+    <div class="row">
+        <div class="container ctn-services">
+        <h2>We are <strong>here</strong> to serve you</h2>
+        <p class="text-center"><img src="images/s1.jpg"></p>
+        <br>
+        <h3> Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Integer posuere erat a ante venenatis dapidus posuere velit aliquet.</h3>
+      </div>
+    </div>
+    <br>
+
+       <div class="row">
+      <br>
+      <div class="col-xs-4">
+      <p class="navbar-text navbar-left navbar-services fa fa-columns fa-4x" href="#"></p>
+      <p class="navbar-text navbar-right">
+        <h5><strong>Responsive Layout</strong>
+        <br>
+        <br>
+        Curabitur blandit tempus portitor. Nulla vitae elit libero, a pharetra augue</h5></p>
+        </div>
+        <div class="col-xs-4">
+          <p class="navbar-text navbar-left navbar-services fa fa-heart-o fa-4x" href="#"></p>
+          <p class="navbar-text navbar-right"><h5><strong>Flat & Clean Design</strong><br> <br> Curabitur blandit tempus portitor. Nulla vitae elit libero, a pharetra augue</h5></p>
+        </div>
+        <div class="col-xs-4">
+          <p class="navbar-text navbar-left navbar-services fa fa-print fa-4x" href="#"></p>
+          <p class="navbar-text navbar-right"><h5><strong>Print Design</strong><br> <br> Curabitur blandit tempus portitor. Nulla vitae elit libero, a pharetra augue</h5></p>
+        </div>
+    </div>
+
+    <div class="row">
+    <br>
+      <div class="col-xs-4">
+        <p class="navbar-text navbar-left navbar-services fa fa-tint fa-5x" href="#"></p>
+        <p class="navbar-text navbar-right"><h5><strong>Color Palettes</strong><br> <br> Curabitur blandit tempus portitor. Nulla vitae elit libero, a pharetra augue</h5></p>
+      </div>
+      <div class="col-xs-4">
+        <p class="navbar-text navbar-left navbar-services fa fa-life-ring fa-4x" href="#"></p>
+        <p class="navbar-text navbar-right"><h5><strong>Free Support & Updates</strong><br> <br> Curabitur blandit tempus portitor. Nulla vitae elit libero, a pharetra augue</h5></p>
+      </div>
+      <div class="col-xs-4">
+        <p class="navbar-text navbar-left navbar-services fa fa-clock-o fa-4x" href="#"></p>
+        <p class="navbar-text navbar-right"><h5><strong>Rapid Solutions</strong><br> <br> Curabitur blandit tempus portitor. Nulla vitae elit libero, a pharetra augue</h5></p>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-xs-4">
+        <p class="navbar-text navbar-left navbar-services fa fa-video-camera fa-4x" href="#"></p>
+        <p class="navbar-text navbar-right"><h5><strong>Video Support</strong><br> <br> Curabitur blandit tempus portitor. Nulla vitae elit libero, a pharetra augue</h5></p>
+      </div>
+      <div class="col-xs-4">
+        <p class="navbar-text navbar-left navbar-services fa fa-envelope-o fa-4x" href="#"></p>
+        <p class="navbar-text navbar-right"><h5><strong>Working Contact Form</strong><br> <br> Curabitur blandit tempus portitor. Nulla vitae elit libero, a pharetra augue</h5></p>
+      </div>
+      <div class="col-xs-4">
+        <p class="navbar-text navbar-left navbar-services fa fa-shopping-cart fa-4x" href="#"></p>
+        <p class="navbar-text navbar-right"><h5><strong>E-Commerce</strong><br> <br> Curabitur blandit tempus portitor. Nulla vitae elit libero, a pharetra augue</h5></p>
+      </div>
+    </div>
+    <br>
+  </div><!-- Fin container services-->
+
+<!-- Container Testimonials -->
+
+  <div class="col-xs-12 ctn-test">
+    <div class="container ctn-test">
+      <div class="row">
+        <center>
+          <h2>Customer <strong>testimonials</strong></h1>
+          <p class="text-center"><img src="images/s1.jpg"></p>
+        </center>
+      </div>
+
+        <div class="col-xs-2">
+          <center>
+            <img src="images/t1.jpg" class="img-circle">
+            <h4><br><strong>CONNORD GIBSON</strong><br>Interface designer</h4>
+          </center>
+        </div>
+
+        <div class="col-xs-3 txt-test">
+          <h5>"Maecenas sed dim eget risus varius blandit si amet non magma. Vivamus sagittis lacus vel augue loareet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus.</h5>
+        </div>
+
+        <div class="col-xs-2">
+
+        </div>
+
+        <div class="col-xs-3 txt-test">
+          <h5>"Maecenas sed dim eget risus varius blandit si amet non magma. Vivamus sagittis lacus vel augue loareet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus.</h5>
+        </div>
+
+        <div class="col-xs-2">
+          <center>
+            <img src="images/t2.jpg" class="img-circle">
+            <h4><br><strong>BARCLAY WIDERSKI</strong><br>Computer Engeneer</h4>
+          </center>
+        </div>
+      
+      <div class="row">
+        <div class="col-xs-2">
+          <center>
+            <img src="images/t3.jpg" class="img-circle">
+            <h4><br><strong>NIKOLAS BROOTEN</strong><br>Sales Manager</h4>
+          </center>
+        </div>
+        <div class="col-xs-3 txt-test">
+          <h5>"Maecenas sed dim eget risus varius blandit si amet non magma. Vivamus sagittis lacus vel augue loareet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus.</h5>
+        </div>
+
+        <div class="col-xs-2">
+
+        </div>
+
+        <div class="col-xs-3 txt-test">
+          <h5>"Maecenas sed dim eget risus varius blandit si amet non magma. Vivamus sagittis lacus vel augue loareet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus.</h5>
+        </div>
+
+        <div class="col-xs-2">
+          <center>
+            <img src="images/t4.jpg" class="img-circle">
+            <h4><br><strong>CORISS AMBADY</strong><br>Marketing Specialist</h4>
+          </center>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <p class="sep-car">SEPARATEUR CAROUSEL</p>
+  <div class="container ctn-brands"> 
+    <div id="carousel-example-generic" class="carousel" data-ride="carousel">
+      <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active ctn-brands">
+            <div class="row"> 
+              <div class="col-xs-2">  
+                  <img src="images/c1.png">
+                </div>
+                <div class="col-xs-2">  
+                  <img src="images/c2.png">
+                </div>
+            <div class="col-xs-2">
+                  <img src="images/c3.png">
+                </div>
+                <div class="col-xs-2">  
+                  <img src="images/c4.png">
+                </div>
+                <div class="col-xs-2">  
+                  <img src="images/c5.png">
+                </div>
+                <div class="col-xs-2">  
+                  <img src="images/c6.png">
+                </div>
+          </div>          
+          </div>
+
+          <div class="carousel-item">
+            <img data-src="images/c2.jpg">
+          </div>
+          <div class="carousel-item">
+            <img data-src="images/c3.png">
+          </div>
+          <div class="carousel-item">
+            <img data-src="images/c4.png">
+          </div>
+          <div class="carousel-item">
+            <img data-src="images/c5.png">
+          </div>
+          <div class="carousel-item">
+            <img data-src="images/c6.png">
+          </div>
+      </div>
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+          <span class="icon-prev" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+          <span class="icon-next" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+</div><!-- Fin container ctn-main -->
+
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="js/bootstrap.min.js"</script>
-<!-- Bootstrap social for social icons and buttons -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/4.12.0/bootstrap-social.css"</script>
+
 
 </body>
 

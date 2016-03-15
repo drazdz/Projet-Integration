@@ -1,0 +1,11 @@
+Page contact (http://www.formvalidator.net/)
+http://harvesthq.github.io/chosen/
+
+input : Name / Organization name
+input : Tel
+input : Mail
+
+textarea : message
+
+input : captcha
+hidden : resultat captcha

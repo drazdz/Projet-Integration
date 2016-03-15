@@ -1,0 +1,23 @@
+body{
+	background-color: #292929;
+  	
+}
+
+#carouselle {
+    width: 800px;
+    height: 400px;
+    position: relative;
+    display: inline-block;
+    background-color: #292929;
+
+
+     }
+  #carouselle img {
+    display: hidden; /* hide images until carousel prepares them */
+    cursor: pointer; /* not needed if you wrap carousel items in links */
+  }
+
+  .navbar{
+  	margin-bottom: 0px;
+  }
+

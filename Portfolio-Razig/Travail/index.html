@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Latest compiled and minified FontAwesome CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!-- Latest compiled and minified Socicon CSS -->
+    <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
+<!-- Link to CSS stylesheet -->
+    <link rel="stylesheet" type="text/css" href="css/index.css?v=3">
+
+                            <title>Index</title>
+</head>
+
+<body>
+
+<!-- Static navbar -->
+<nav class="navbar navbar-default navbar-static-top">
+    <div class="container ctn-navbar">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand branduser"><span class="glyphicon glyphicon-user"></span> Razig ABIDA</a>
+          <a class="navbar-brand brandmail"><span class="glyphicon glyphicon-envelope"></span> razig.abida@wanadoo.fr</a>
+        </div>
+        <div id="navbar-social" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="socialicon"><a class="btn btn-social-icon socicon-viadeo" a href="http://fr.viadeo.com/fr/profile/razig.abida" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'socicon-viadeo']);"></a></li>
+
+            <li><a class="btn btn-social-icon socicon-linkedin" a href="https://fr.linkedin.com/" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'socicon-linkedin']);"></a></li>
+
+            <li><a class="btn btn-social-icon socicon-github" a href="https://github.com/drazdz" target="_blank" onclick="_gaq.push(['_trackEvent', 'btn-social-icon', 'click', 'socicon-github']);"></a></li>
+
+          </ul>
+        </div><!--/.nav-collapse -->
+    </div><!--/.container cnavbar -->
+</nav>
+<div class="container">
+<!-- Carousel -->
+  <div class="row text-center">
+        <div id="carouselle">
+          <img src="images/home.png" alt="Image 1" />
+          <img src="images/home.png" alt="Image 2" />
+          <img src="images/home.png" alt="Image 3" />
+          <img src="images/home.png" alt="Image 4" />
+          <img src="images/home.png" alt="Image 5" />
+        </div>
+  </div>
+</div>
+
+<!-- note: should work with jQuery 1.4 and up -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.waterwheelCarousel.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+    $("#carouselle").waterwheelCarousel({
+      // include options like this:
+      // (use quotes only for string values, and no trailing comma after last option)
+      // option: value,
+      // option: value
+    });
+  });
+</script>
+</body>
+</html>
